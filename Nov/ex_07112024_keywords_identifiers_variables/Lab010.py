@@ -1,5 +1,7 @@
-long_var_name_is_created_here  = "Long Variable Name"
-print(long_var_name_is_created_here)
+a = 10
+b = 10
+c = a + b
+print(c)
 
-# space is not allowed  = "Space not allowed"
-# print(space is not allowed)
+c = c - 10
+print(c)
