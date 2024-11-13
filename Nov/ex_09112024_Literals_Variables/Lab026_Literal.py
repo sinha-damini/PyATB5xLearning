@@ -8,6 +8,16 @@ binary_number = 0b1010 #10 in decimal systems
 pi =3.14 #float
 
 name = 'Damini' #string
-Is Damini Married = False #bool
+Is_Damini_Married = False #bool
 
 b = 3+4j #complex
+
+a = None#none
+print(type(a))
+b='C'
+
+c = str(a)+" "+b
+print(c)
+
+# b=iboy#it will give error as it is not a valid literal type.
+# prnt(b)
