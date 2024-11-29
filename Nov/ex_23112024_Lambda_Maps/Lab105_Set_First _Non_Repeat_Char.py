@@ -10,3 +10,10 @@ def fir_non_repeat_char(string):
 
 print(fir_non_repeat_char("swiss"))
 print(fir_non_repeat_char("swwiiss"))
+
+
+
+
+
+
+
