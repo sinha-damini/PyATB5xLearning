@@ -1,6 +1,6 @@
 #Task for Today
 #Take 2 i/p from the user
-#print the uotient and remainder.
+#print the quotient and remainder.
 #num1 - 15
 #num2 - 2
 #Q - 7

@@ -8,5 +8,6 @@ print(type(Age))
 print(type(age))
 
 age = "Damini"
+print(type(age))
 age = True
 print(type(age))
