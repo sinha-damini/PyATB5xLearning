@@ -20,3 +20,8 @@ class ICICI(BankAccount):
     @staticmethod
     def call_customer_care():
         print("Calling")
+
+cust = ICICI(25454,215458)
+cust.withdraw()
+cust.loan()
+ICICI.call_customer_care()
