@@ -4,8 +4,8 @@
 Syntax:
 initialization
 while < condition?
-code to br executed
-updation
+   code to br executed
+   updation
 '''
 
 i = 0
@@ -27,7 +27,7 @@ while j <= 10:
     j = j+1
 
 """
-Only Diff in for and while loop
+Only Diff in syntax of for and while loop
 in case of while: initialization and updation is outside the loop
 everything is in same line.
 """
