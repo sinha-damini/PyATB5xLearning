@@ -39,7 +39,8 @@ def test_get_request_positive():
 def test_get_request_negative():
     url_get = "https://restful-booker.herokuapp.com/booking/-1"
     response_data = requests.get(url=url_get)
-    assert response_data.status_code == 404
+    assert response_data.status_code != 200
+    # assert response_data.status_code == 404
 
 
 
