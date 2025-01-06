@@ -1,0 +1,8 @@
+HP Dami123
+ff8d24437f641fc
+<class 'str'>
+<class 'dict'>
+<class 'dict'>
+129
+Token -> ff8d24437f641fc
+Booking ID ->  129

@@ -1,0 +1,8 @@
+HP Dami123
+19a702451669cb5
+<class 'str'>
+<class 'dict'>
+<class 'dict'>
+85
+Token -> 19a702451669cb5
+Booking ID ->  85
