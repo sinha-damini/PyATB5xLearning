@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>VWO Login</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+        }
+        .login-container {
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+        }
+        .input-field {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .button {
+            width: 100%;
+            background-color: #28a745;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .button:hover {
+            background-color: #218838;
+        }
+        .small-link {
+            display: block;
+            margin-top: 10px;
+            font-size: 14px;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .small-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>VWO</h1>
+    <h3>SIGN IN TO VWO PLATFORM</h3>
+
+    <div class="login-container">
+        <label>Email address</label>
+        <input type="text" class="input-field" placeholder="Enter your email">
+
+        <label>Password</label>
+        <input type="password" class="input-field" placeholder="Enter your password">
+
+        <a href="https://appvwo.com/sso" class="small-link">Forgot Password?</a>
+
+        <br><br>
+        <input type="checkbox"> Remember me
+        <br><br>
+
+        <button class="button">Sign in</button>
+
+        <a href="https://appvwo.com/sso" class="small-link">Sign in using SSO</a>
+
+        <p>Don't have an account? <a href="https://vwo.com/free-trial" class="small-link">Start a free trial</a></p>
+    </div>
+
+</body>
+</html>
