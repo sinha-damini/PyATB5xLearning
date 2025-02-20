@@ -6,8 +6,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
 
-@allure.title("Selenium Mini Project 2")
-@allure.description("Print the items and prices.")
+@allure.title("Selenium Mini Project 2_Ebay")
+@allure.description("Print the items and prices of Macmini.")
 @pytest.mark.itemsandprice
 def test_print_items_price():
     chrome_options = Options()
